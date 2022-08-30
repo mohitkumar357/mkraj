@@ -13,6 +13,7 @@ span {
     top: 100px;
     left:200px;
     padding:50px;
+    filter:blur(12px);
 }
 .box-container {
     display:flex;
@@ -22,7 +23,7 @@ span {
 
 }
 h1 {
-    font-size:50px;
+    font-size:35px;
 }
 hr {
     width:120px;
@@ -44,7 +45,7 @@ hr {
     box-shadow:10px 10px 12px gray;
     border-radius: 10px;
     width:200px;
-    height:330px;
+    height:250px;
     text-align: center;
 
 }
@@ -56,11 +57,32 @@ h3 {
     color:red;
     text-decoration: line-through;
 }
-/* .anchor {
-    text-decoration: none;
+.upfront {
     border:2px solid red;
-   background-color: red;
-   color:white;
-   border-radius:8px;
-   height:50px;
-} */
+    border-radius:15px;
+    height:220px;
+    width:450px;
+    text-align: center;
+    color:red;
+    font-size:25px;
+    z-index:5;
+    margin:auto;
+    position:absolute;
+    top:300px;
+    left:550px;
+}
+button {
+    color:white;
+    background-color: red;
+    border-radius:18px;
+    width:80px;
+    padding:10px;
+    font-size:18px;
+}
+input {
+   border:1px solid red;
+    border-radius:5px;
+    height:25px;
+    width:200px;
+
+}
